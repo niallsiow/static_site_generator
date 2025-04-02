@@ -4,11 +4,11 @@ def test():
     print("import test")
 
 class TextType(Enum):
-    bold_text = "bold text"
-    italic_text = "italic text"
-    code_text = "code text"
-    link_text = "link text"
-    image_text = "image text"
+    BOLD = "bold"
+    ITALIC = "italic"
+    CODE = "code"
+    LINK = "link"
+    IMAGE = "image"
 
 
 class TextNode():
