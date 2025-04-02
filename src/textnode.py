@@ -4,6 +4,7 @@ def test():
     print("import test")
 
 class TextType(Enum):
+    TEXT = "text"
     BOLD = "bold"
     ITALIC = "italic"
     CODE = "code"
