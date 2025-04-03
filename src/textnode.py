@@ -1,7 +1,5 @@
 from enum import Enum
 
-def test():
-    print("import test")
 
 class TextType(Enum):
     TEXT = "text"
