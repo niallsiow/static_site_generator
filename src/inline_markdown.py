@@ -25,11 +25,3 @@ def split_nodes_delimiter(old_nodes, delimiter, text_type):
         new_nodes.extend(split_nodes)
 
         return new_nodes
-
-
-
-node = TextNode("This is text with a `code block` word", TextType.TEXT)
-    
-new_nodes = split_nodes_delimiter([node], "`", TextType.CODE)
-
-print(new_nodes)
